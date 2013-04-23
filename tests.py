@@ -25,6 +25,7 @@ class SmsApiTest(unittest.TestCase):
 
     def test_validate(self):
         requests = mock.MagicMock()
+        requests.get.return_value.content = 'ok|1'
 
         obj = EuroSms(id='1-TB672G', key='5^Af-8Ss', requests=requests)
 
