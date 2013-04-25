@@ -7,7 +7,7 @@ Installation
 ============
 
 ```
-    pip install git+git@github.com:tomasd/eurosms.git
+    pip install git+https://github.com/tomasd/eurosms.git
 ```
 
 Usage
