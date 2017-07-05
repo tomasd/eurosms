@@ -19,3 +19,8 @@ Usage
     api = EuroSms(id='1-TB672G', key='5^Af-8Ss')
     api.send('John_Smith', '+421948123456', 'My message')
 ```
+
+License
+=======
+
+MIT License
